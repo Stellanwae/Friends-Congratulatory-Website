@@ -1,0 +1,79 @@
+* {
+    font-family: "Tajawal", sans-serif;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 50px 100px;
+}
+
+.main {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 70vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80vw;
+    position: relative;
+}
+
+.mainimage {
+    width: 500px;
+    /* z-index: 1; */
+}
+
+.maintext {
+    position: absolute;
+    top: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: orange
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors > img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#scrimba {
+    height: 60px;
+    width: 60px;
+}
+
+.footerimage{
+   width: 100%;
+}
+
+footer {
+    position: relative;
+    background: transparent;
+}
+
+footer > div > p {
+    background: transparent;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    background: transparent;
+    right: 50%;
+}
+
+.copyright {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
